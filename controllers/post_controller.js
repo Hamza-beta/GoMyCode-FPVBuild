@@ -32,8 +32,9 @@ exports.ListUserPost = async (req, res) => {
   }
 };
 exports.DeletedPost = async (req, res) => {
+  const { ID } = req.params;
   try {
-    const DeletedPost = await Post.deleteOne({ userId: req.user._id });
+    const DeletedPost = await Post.findByIdAndDelete(ID);
     res.status(200).send({ msg: "Post Deleted", DeletedPost });
   } catch (error) {
     res.status(500).send({ msg: "could not delete Post" });
@@ -51,12 +52,28 @@ exports.OnePost = async (req, res) => {
 
 exports.EditPost = async (req, res) => {
   const { ID } = req.params;
+
   try {
     const Edited = await Post.findByIdAndUpdate(ID, {
-      $set: { ...req.body },
+      $set: {
+        ...req.body,
+        photos: { ...req.files },
+        userId: req.user._id,
+      },
     });
+    console.log(req.body);
     res.status(200).send({ msg: "updated post", Edited });
   } catch (error) {
-    res.status(500).send({ msg: "could not update post" });
+    res.status(500).send({ msg: "could not update post", error });
+  }
+};
+
+exports.EditOnePost = async (req, res) => {
+  const { ID } = req.params;
+  try {
+    const EditOnePost = await Post.findById(ID);
+    res.status(200).send({ msg: "one post found to be edited", EditOnePost });
+  } catch (error) {
+    res.status(500).send({ msg: "could not find post to be edited" });
   }
 };
