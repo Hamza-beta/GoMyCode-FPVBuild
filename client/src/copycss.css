@@ -1,0 +1,720 @@
+/*HOME CSS*/
+.hometitle {
+  margin-top: 100px;
+  margin-left: 300px;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 80px;
+}
+.homeundertitle {
+  margin-left: 300px;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 40px;
+}
+/*  build card images */
+.buildcardIMG {
+  width: 70%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  background-color: #248bfb;
+}
+li {
+  margin: 15px 60px 15px 50px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: larger;
+}
+label {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+
+input {
+  margin-left: 5px;
+  display: flex;
+  justify-content: right;
+}
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #248bfb;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+/* Add padding to containers */
+.container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+span.psw {
+  display: block;
+  float: none;
+}
+cardroot {
+  display: flex;
+  justify-content: left;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 18px;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+.addbuild {
+  margin-top: 60px;
+}
+/* Users List Style*/
+userList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/*   Users List Card */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1344 {
+  font-family: "Open Sans", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.4em;
+  background-color: #141414;
+}
+.snip1344 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1344 .background {
+  width: 100%;
+  vertical-align: top;
+  opacity: 0.2;
+  -webkit-filter: grayscale(100%) blur(10px);
+  filter: grayscale(100%) blur(10px);
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.snip1344 figcaption {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.snip1344 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.snip1344 h3 {
+  margin: 0 0 5px;
+  font-weight: 400;
+}
+.snip1344 h3 span {
+  display: block;
+  font-size: 0.6em;
+  color: #f39c12;
+  opacity: 0.75;
+}
+.snip1344 i {
+  padding: 10px 5px;
+  display: inline-block;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0.65;
+}
+.snip1344 a {
+  text-decoration: none;
+}
+.snip1344 i:hover {
+  opacity: 1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1344:hover .background,
+.snip1344.hover .background {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+/* SignIn SignUp*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #248bfb;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #248bfb;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #248bfb;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #ef3b3a;
+}
+body {
+  background: #ffffff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #ffffff, #ffffff);
+  background: -moz-linear-gradient(right, #ffffff, #ffffff);
+  background: -o-linear-gradient(right, #ffffff, #ffffff);
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* build list style*/
+.buildList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* home page backrgound image*/
+.backgroundImage {
+  width: 100%;
+  text-align: center;
+  height: 900px;
+}
+/* profile card*/
+
+/*
+  
+  All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 310). 
+          
+  The 'supports' rule will only run if your browser supports CSS grid.
+  
+  Flexbox and floats are used as a fallback so that browsers which don't support grid will still recieve a similar layout.
+  
+  */
+
+/* Base Styles */
+
+:root {
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #fafafa;
+  color: #262626;
+  padding-bottom: 3rem;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 93.5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.btn {
+  display: inline-block;
+  font: inherit;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0.5rem auto #4d90fe;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Profile Section */
+
+.profile {
+  padding: 5rem 0;
+}
+
+.profile::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.profile-image {
+  float: left;
+  width: calc(33.333% - 1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.profile-image img {
+  border-radius: 50%;
+}
+
+.profile-user-settings,
+.profile-stats,
+.profile-bio {
+  float: left;
+  width: calc(66.666% - 2rem);
+}
+
+.profile-user-settings {
+  margin-top: 1.1rem;
+}
+
+.profile-user-name {
+  display: inline-block;
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+
+.profile-edit-btn {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  border: 0.1rem solid #dbdbdb;
+  border-radius: 0.3rem;
+  padding: 0 2.4rem;
+  margin-left: 2rem;
+}
+
+.profile-settings-btn {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.profile-stats {
+  margin-top: 2.3rem;
+}
+
+.profile-stats li {
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-right: 4rem;
+  cursor: pointer;
+}
+
+.profile-stats li:last-of-type {
+  margin-right: 0;
+}
+
+.profile-bio {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 2.3rem;
+}
+
+.profile-real-name,
+.profile-stat-count,
+.profile-edit-btn {
+  font-weight: 600;
+}
+
+/* Gallery Section */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+  padding-bottom: 3rem;
+}
+
+.gallery-item {
+  position: relative;
+  flex: 1 0 22rem;
+  margin: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.gallery-item:hover .gallery-item-info,
+.gallery-item:focus .gallery-item-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item-info {
+  display: none;
+}
+
+.gallery-item-info li {
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.gallery-item-likes {
+  margin-right: 2.2rem;
+}
+
+.gallery-item-type {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2.5rem;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.fa-clone,
+.fa-comment {
+  transform: rotateY(180deg);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Loader */
+
+.loader {
+  width: 5rem;
+  height: 5rem;
+  border: 0.6rem solid #999;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: loader 500ms linear infinite;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 40rem) {
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+  }
+
+  .profile::after {
+    display: none;
+  }
+
+  .profile-image,
+  .profile-user-settings,
+  .profile-bio,
+  .profile-stats {
+    float: none;
+    width: auto;
+  }
+
+  .profile-image img {
+    width: 7.7rem;
+  }
+
+  .profile-user-settings {
+    flex-basis: calc(100% - 10.7rem);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  .profile-user-name {
+    font-size: 2.2rem;
+  }
+
+  .profile-edit-btn {
+    order: 1;
+    padding: 0;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .profile-edit-btn {
+    margin-left: 0;
+  }
+
+  .profile-bio {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+  }
+
+  .profile-edit-btn,
+  .profile-bio,
+  .profile-stats {
+    flex-basis: 100%;
+  }
+
+  .profile-stats {
+    order: 1;
+    margin-top: 1.5rem;
+  }
+
+  .profile-stats ul {
+    display: flex;
+    text-align: center;
+    padding: 1.2rem 0;
+    border-top: 0.1rem solid #dadada;
+    border-bottom: 0.1rem solid #dadada;
+  }
+
+  .profile-stats li {
+    font-size: 1.4rem;
+    flex: 1;
+    margin: 0;
+  }
+
+  .profile-stat-count {
+    display: block;
+  }
+}
+
+/* Spinner Animation */
+
+@keyframes loader {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+  
+  The following code will only run if your browser supports CSS grid.
+  
+  Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling. 
+  
+  */
+
+@supports (display: grid) {
+  .profile {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 3rem;
+    align-items: center;
+  }
+
+  .profile-image {
+    grid-row: 1 / -1;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .profile-image,
+  .profile-user-settings,
+  .profile-stats,
+  .profile-bio,
+  .gallery-item,
+  .gallery {
+    width: auto;
+    margin: 0;
+  }
+
+  @media (max-width: 40rem) {
+    .profile {
+      grid-template-columns: auto 1fr;
+      grid-row-gap: 1.5rem;
+    }
+
+    .profile-image {
+      grid-row: 1 / 2;
+    }
+
+    .profile-user-settings {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-gap: 1rem;
+    }
+
+    .profile-edit-btn,
+    .profile-stats,
+    .profile-bio {
+      grid-column: 1 / -1;
+    }
+
+    .profile-user-settings,
+    .profile-edit-btn,
+    .profile-settings-btn,
+    .profile-bio,
+    .profile-stats {
+      margin: 0;
+    }
+  }
+}

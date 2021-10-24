@@ -1,0 +1,362 @@
+/* navigation bar */
+.navbar {
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.navUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  background-color: #248bfb;
+}
+.navLi {
+  margin: 15px 60px 15px 50px;
+}
+.nava {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: larger;
+  letter-spacing: 2px;
+}
+/* home */
+.homeImage {
+  width: 100%;
+}
+.hometext {
+  margin-left: 280px;
+  margin-top: 80px;
+  text-align: left;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.homemaintext {
+  font-weight: bolder;
+  font-size: 90px;
+  letter-spacing: 3px;
+  color: aliceblue;
+}
+.homeundertext {
+  color: white;
+  font-size: 50px;
+}
+/* builds    */
+.buildCardImage {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+.buildCardItem {
+  position: absolute;
+  color: #fff;
+  cursor: pointer;
+}
+
+.buildCardItem:hover .buildCardItemInfo,
+.buildCardItem:focus .buildCardItemInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.buildCardItemInfo {
+  display: none;
+}
+
+.buildCardItemLI {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* builds list */
+.buildList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* add build form */
+.addbuildHead {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc;
+}
+.addbuildButtons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-right: 30%;
+  margin-left: 25%;
+}
+.addbuildOneButton {
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #248bfb;
+  width: 50%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.addbuildPhotos {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.addbuildDragText {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 170px;
+  color: #000000;
+  font-family: Arial;
+}
+.addbuildDragArea {
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  outline: none;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.addbuildFileButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #248bfb;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.addbuildInputField {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.addbuildInfoInput {
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #666;
+}
+.addbuildTitles {
+  color: #666;
+}
+.addbuildInfoInput {
+  color: #666;
+  letter-spacing: 2px;
+}
+/* Sign In Sign Up*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.Sign-login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.Sign-form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.Sign-input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.Sign-button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #248bfb;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.Sign-button:hover,
+.Sign-button:active,
+.Sign-button:focus {
+  background: #248cfb96;
+}
+.Sign-form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.Sign-form .message a {
+  color: #248bfb;
+  text-decoration: none;
+}
+.Sign-form .register-form {
+  display: none;
+}
+/* build post */
+
+.buildPostBackImage {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+.buildPostName {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 90px;
+  text-align: center;
+  top: 0;
+  left: 10%;
+  font-size: larger;
+  letter-spacing: 1px;
+  color: white;
+}
+.buildPostProfile {
+  margin-top: 100px;
+  margin-left: 60px;
+  position: absolute;
+  top: 0;
+}
+.buildPostUser {
+  font-size: large;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 0;
+  font-weight: lighter;
+  margin-top: 165px;
+  margin-left: 253px;
+  letter-spacing: 1px;
+  color: white;
+}
+.buildPostProfilePic {
+  border-radius: 80px;
+  object-fit: cover;
+}
+.buildPostPhotosGallery {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin-top: 50px;
+}
+.buildPostOnePhoto {
+  object-fit: cover;
+  width: 25%;
+  padding: 10px;
+}
+.buildPostPhotosTitle {
+  margin-top: 250px;
+  color: gray;
+  letter-spacing: 1px;
+  margin-left: 150px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.buildPostDescriptionTitle {
+  margin-top: 500px;
+  color: gray;
+  letter-spacing: 1px;
+  margin-left: 150px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.buildPostDescription {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 50px;
+  padding-bottom: 10%;
+  color: black;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.buildPostEditButton {
+  z-index: 1;
+}
+
+/*  profile */
+.ProfilePic {
+  border-radius: 80px;
+  object-fit: cover;
+}
+.profileList {
+  display: flex;
+  list-style: none;
+  justify-content: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 30px;
+}
+.profileUserName {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.profileTitleBuilds {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.profileBuildList {
+  padding: 1px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.buildPostPartLinks {
+  font-family: "Roboto", sans-serif;
+  color: rgba(94, 91, 91, 0.877);
+  margin-left: 150px;
+  font-weight: bolder;
+  font-size: large;
+}
